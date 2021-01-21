@@ -1,0 +1,21 @@
+/* Basic normalization */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px;
+  height: 100vh;
+  font-family: monospace;
+}
+
+/* Utility Styles */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
